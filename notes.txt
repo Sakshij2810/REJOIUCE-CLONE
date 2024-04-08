@@ -1,0 +1,43 @@
+1. destructuring website 
+2. fonts => while hosting website (ttf => WOff2) link:- "https://cloudconvert.com/woff2-to-ttf"
+3. we need to add properties to span seperatly
+4. colorzilla extension to stole colours from any website
+5. to use any librabry we need its CDN
+6. GSAP => JS liabrary to make moving animations
+7. locomotive js => JS librabry to make scrolling smooth
+8. swipper js => JS librabry to add swipe/ slider effect to elements
+9. gsap timeline() => to manange asyncronous behaviour, to make asyn to sync
+
+
+
+
+
+
+
+
+2) [position: relative] (give this to parent element so that their childer is in their controll)
+3) [object-fit: cover];  => img, video tag
+3) [object-position: center;] => img, video tag
+4) [background-size: cover]; => background img, video 
+5) [position: absolute] => disappear, hide at the back of parent which is relative
+6) vw,vh => viewport height/ width
+7) @font-face{
+    font-family: ;
+    src: url();
+   }   
+8) [transform: translate(-50%, -50%)] => The CSS property is commonly used to horizontally and vertically center an element within its parent container.
+9) gsap.to() / gsap.from()
+10) gsap.to("#cursor", {
+      x: 500,
+      y: 500,
+    });
+
+
+
+ // PROBLEM STATEMENT
+
+ 1. when we apply locomotive js CDN in our website, it doesnt allowed any other CDN to work properly   
+ ans => link[https://codepen.io/GreenSock/pen/ExPdqKy], locomotive scrolltrigger codepen
+
+ 2. play are elements automatically, and make it infinite
+ ans => link[https://swiperjs.com/demos#infinite-loop], swipper js
